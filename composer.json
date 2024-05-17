@@ -1,0 +1,55 @@
+{
+  "name": "andersundsehr/vite_helper",
+  "description": "Helps with integrationg vite in Prod and Development",
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "type": "typo3-cms-extension",
+  "require": {
+    "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
+    "helhum/dotenv-connector": "^3.1",
+    "typo3/cms-core": "^11.5 || ^12.0 || ^13.0"
+  },
+  "require-dev": {
+    "infection/infection": "^0.27.11",
+    "pluswerk/grumphp-config": "^6 || ^7.0.3",
+    "saschaegerer/phpstan-typo3": "^1.10.1",
+    "ssch/typo3-rector": "^2.5.1",
+    "typo3/testing-framework": "^7 || ^8.0.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "AUS\\ViteHelper\\": "Classes/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AUS\\ViteHelper\\Tests\\": "Tests/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "ergebnis/composer-normalize": true,
+      "helhum/dotenv-connector": true,
+      "infection/extension-installer": true,
+      "phpro/grumphp": true,
+      "phpstan/extension-installer": true,
+      "pluswerk/grumphp-config": true,
+      "typo3/class-alias-loader": true,
+      "typo3/cms-composer-installers": true
+    },
+    "sort-packages": true
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "vite_helper"
+    }
+  },
+  "scripts": {
+    "post-update-cmd": [
+      "@composer bump -D"
+    ],
+    "infection": "infection --only-covered",
+    "test": "@php -d pcov.enabled=1 ./vendor/bin/phpunit"
+  }
+}

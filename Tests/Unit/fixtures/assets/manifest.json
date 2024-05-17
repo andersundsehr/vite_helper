@@ -1,0 +1,111 @@
+{
+  "src/fonts/Iconfont/icomoon.eot": {
+    "file": "assets/icomoon-cc5ce8a4.eot",
+    "src": "src/fonts/Iconfont/icomoon.eot"
+  },
+  "src/fonts/Iconfont/icomoon.svg": {
+    "file": "assets/icomoon-6a57f36c.svg",
+    "src": "src/fonts/Iconfont/icomoon.svg"
+  },
+  "src/fonts/Iconfont/icomoon.ttf": {
+    "file": "assets/icomoon-04f9b5bd.ttf",
+    "src": "src/fonts/Iconfont/icomoon.ttf"
+  },
+  "src/fonts/Iconfont/icomoon.woff": {
+    "file": "assets/icomoon-e9527aea.woff",
+    "src": "src/fonts/Iconfont/icomoon.woff"
+  },
+  "src/fonts/lato-v23-latin-300.eot": {
+    "file": "assets/lato-v23-latin-300-79ad628a.eot",
+    "src": "src/fonts/lato-v23-latin-300.eot"
+  },
+  "src/fonts/lato-v23-latin-300.svg": {
+    "file": "assets/lato-v23-latin-300-4aad52d8.svg",
+    "src": "src/fonts/lato-v23-latin-300.svg"
+  },
+  "src/fonts/lato-v23-latin-300.ttf": {
+    "file": "assets/lato-v23-latin-300-b229d664.ttf",
+    "src": "src/fonts/lato-v23-latin-300.ttf"
+  },
+  "src/fonts/lato-v23-latin-300.woff": {
+    "file": "assets/lato-v23-latin-300-082389bc.woff",
+    "src": "src/fonts/lato-v23-latin-300.woff"
+  },
+  "src/fonts/lato-v23-latin-300.woff2": {
+    "file": "assets/lato-v23-latin-300-115f6a62.woff2",
+    "src": "src/fonts/lato-v23-latin-300.woff2"
+  },
+  "src/fonts/lato-v23-latin-700.eot": {
+    "file": "assets/lato-v23-latin-700-ab980708.eot",
+    "src": "src/fonts/lato-v23-latin-700.eot"
+  },
+  "src/fonts/lato-v23-latin-700.svg": {
+    "file": "assets/lato-v23-latin-700-8335d9b8.svg",
+    "src": "src/fonts/lato-v23-latin-700.svg"
+  },
+  "src/fonts/lato-v23-latin-700.ttf": {
+    "file": "assets/lato-v23-latin-700-7e15d848.ttf",
+    "src": "src/fonts/lato-v23-latin-700.ttf"
+  },
+  "src/fonts/lato-v23-latin-700.woff": {
+    "file": "assets/lato-v23-latin-700-8f7348e2.woff",
+    "src": "src/fonts/lato-v23-latin-700.woff"
+  },
+  "src/fonts/lato-v23-latin-700.woff2": {
+    "file": "assets/lato-v23-latin-700-c447dd76.woff2",
+    "src": "src/fonts/lato-v23-latin-700.woff2"
+  },
+  "src/fonts/lato-v23-latin-regular.eot": {
+    "file": "assets/lato-v23-latin-regular-e745a8d2.eot",
+    "src": "src/fonts/lato-v23-latin-regular.eot"
+  },
+  "src/fonts/lato-v23-latin-regular.svg": {
+    "file": "assets/lato-v23-latin-regular-9e2898a4.svg",
+    "src": "src/fonts/lato-v23-latin-regular.svg"
+  },
+  "src/fonts/lato-v23-latin-regular.ttf": {
+    "file": "assets/lato-v23-latin-regular-b6e055ad.ttf",
+    "src": "src/fonts/lato-v23-latin-regular.ttf"
+  },
+  "src/fonts/lato-v23-latin-regular.woff": {
+    "file": "assets/lato-v23-latin-regular-ad119c7b.woff",
+    "src": "src/fonts/lato-v23-latin-regular.woff"
+  },
+  "src/fonts/lato-v23-latin-regular.woff2": {
+    "file": "assets/lato-v23-latin-regular-918b7dc3.woff2",
+    "src": "src/fonts/lato-v23-latin-regular.woff2"
+  },
+  "src/typescript/index.css": {
+    "file": "assets/index-efe754a5.css",
+    "src": "src/typescript/index.css"
+  },
+  "src/typescript/index.ts": {
+    "assets": [
+      "assets/lato-v23-latin-300-79ad628a.eot",
+      "assets/lato-v23-latin-300-115f6a62.woff2",
+      "assets/lato-v23-latin-300-082389bc.woff",
+      "assets/lato-v23-latin-300-b229d664.ttf",
+      "assets/lato-v23-latin-300-4aad52d8.svg",
+      "assets/lato-v23-latin-regular-e745a8d2.eot",
+      "assets/lato-v23-latin-regular-918b7dc3.woff2",
+      "assets/lato-v23-latin-regular-ad119c7b.woff",
+      "assets/lato-v23-latin-regular-b6e055ad.ttf",
+      "assets/lato-v23-latin-regular-9e2898a4.svg",
+      "assets/lato-v23-latin-700-ab980708.eot",
+      "assets/lato-v23-latin-700-c447dd76.woff2",
+      "assets/lato-v23-latin-700-8f7348e2.woff",
+      "assets/lato-v23-latin-700-7e15d848.ttf",
+      "assets/lato-v23-latin-700-8335d9b8.svg",
+      "assets/icomoon-cc5ce8a4.eot",
+      "assets/icomoon-04f9b5bd.ttf",
+      "assets/icomoon-e9527aea.woff",
+      "assets/icomoon-6a57f36c.svg"
+    ],
+    "css": [
+      "assets/index-efe754a5.css"
+    ],
+    "file": "assets/index-51605102.js",
+    "isEntry": true,
+    "src": "src/typescript/index.ts"
+  }
+}
