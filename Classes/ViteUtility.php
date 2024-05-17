@@ -68,6 +68,7 @@ final class ViteUtility
         $jsFiles = [
             '@vite/client',
             ...($conf['js.'] ?? []),
+            ...($conf['css.'] ?? []),
             '@vite-plugin-checker-runtime-entry'
         ];
         foreach ($jsFiles as $jsFile) {
