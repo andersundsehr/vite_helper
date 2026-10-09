@@ -32,7 +32,7 @@ final class ViteUtility
         $path = Environment::getPublicPath() . '/assets/manifest.json';
         $content = file_get_contents($path);
         if (!$content) {
-            throw new Exception(sprintf('vite manifest is necessary, tried to find it here: %s', $path));
+            throw new Exception(sprintf('vite manifest is necessary, tried to find it here: %s', $path), 1791540001);
         }
 
         $data = json_decode(json: $content, associative: true, flags: JSON_THROW_ON_ERROR);
@@ -42,7 +42,7 @@ final class ViteUtility
             foreach ($files as $fileName) {
                 $fileName = ltrim($fileName, '/');
                 if (!isset($data[$fileName])) {
-                    throw new Exception(sprintf('configured %s %s not found in manifest.json', $type, $fileName));
+                    throw new Exception(sprintf('configured %s %s not found in manifest.json', $type, $fileName), 1791540002);
                 }
 
                 $fileName = '/' . $data[$fileName]['file'];
@@ -50,7 +50,7 @@ final class ViteUtility
                     'js.' => sprintf('<script defer type="module" src="%s"></script>', $fileName),
                     'css.' => sprintf('<link rel="stylesheet" href="%s" media="all">', $fileName),
                     'fontPreLoad.' => sprintf('<link rel="preload" href="%s" as="font" crossorigin />', $fileName),
-                    default => throw new Exception(sprintf('type not defined %s', $type))
+                    default => throw new Exception(sprintf('type not defined %s', $type), 1791540003)
                 };
             }
         }
